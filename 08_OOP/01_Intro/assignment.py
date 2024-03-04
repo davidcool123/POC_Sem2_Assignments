@@ -1,3 +1,5 @@
+from math import hypot
+
 class RightTriangle: 
     def __init__(self, base, height):
         self.base = base
@@ -6,6 +8,7 @@ class RightTriangle:
     def area(self):
         return (1/2) * self.base * self.height
 
+       
 triangle_1 = RightTriangle(3, 4)
 print("The area of triange_1 is", triangle_1.area())
 
