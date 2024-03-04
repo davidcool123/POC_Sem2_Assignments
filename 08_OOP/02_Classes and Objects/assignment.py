@@ -15,8 +15,7 @@ class RightTriangle:
 
 
     def area(self):
-        # Youdo return the area which is 1/2 * base * height
-        pass  # Remove this pass when finished
+         return (1/2) * self.base * self.height 
     
     def hypotenuse(self):
         return hypot(self.base, self.height)
@@ -41,6 +40,8 @@ print("The perimeter of triangle2 is", triangle2.perimeter())
 print("The small angle of triangle2 is", triangle2.min_angle)
 print("The large angle of triangle2 is", triangle2.max_angle)
 triangle2.base = 15
+
+
 
 
 
