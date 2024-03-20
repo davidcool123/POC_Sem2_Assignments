@@ -24,6 +24,7 @@ class Rectangle:
         return self.__base * self.__height       # Youdo get_area method
     
     def __str__(self) -> str:
+<<<<<<< HEAD
         # Rectangle of base:3, height:4
         return "Rectangle of base:" + str(self.__base) + ", height:" + str(self.__height)
         
@@ -32,6 +33,11 @@ print(rectangle1.get_base())
 print(rectangle1.get_height())
 print(rectangle1.get_area())
 print(rectangle1.get_perimeter())
+=======
+        #Rectangle with base:3, height:4
+        return "Rectangle with base:" + str(self.__base) + ", height:" + str(self.__height)
+    
+>>>>>>> 62c5c49131800e7eba24bad8aa9cac64d1c9aff4
 
 print(rectangle1)
 
